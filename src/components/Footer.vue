@@ -9,7 +9,7 @@ export default {
     name: 'FooterComp',
     data() {
       return {
-        // get current yera
+        // get current year
         currentYear:new Date().getFullYear(),
       }
     },
