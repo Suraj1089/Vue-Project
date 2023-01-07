@@ -1,6 +1,7 @@
+
 <template>
-  <div class="w-100 bg-pink-800 text-white" style="margin-top: 20px;">
-      <h4 class="text-center py-5">suraj@ {{ currentYear }} </h4>
+  <div class="w-100 bg-pink-800 text-white">
+      <h4 class="text-center py-5">Sharmila S © {{ currentYear }}</h4>
   </div>
 </template>
 
@@ -8,13 +9,9 @@
 export default {
     name: 'FooterComp',
     data() {
-      return {
-        // get current year
-        currentYear:new Date().getFullYear(),
-      }
-    },
-    methods: {
-      
+        return {
+            currentYear: new Date().getFullYear()
+        }
     }
 }
 </script>
